@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Composition">
+
+    <RelativeLayout
+        android:id="@+id/topOne"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/picTop"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back_arrow"/>
+
+        <TextView
+            android:id="@+id/topText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/composition"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/topText"
+            android:background="@color/hint_grey"
+            android:layout_marginTop="4dp"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/myView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/topOne">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="550dp">
+            <LinearLayout
+                android:id="@+id/first"
+                android:layout_width="200dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_height="match_parent">
+
+                <CheckBox
+                    android:id="@+id/andesineCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/andesine"/>
+                <CheckBox
+                    android:id="@+id/apatiteCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/apatite"/>
+                <CheckBox
+                    android:id="@+id/bauxiteCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/bauxite"/>
+                <CheckBox
+                    android:id="@+id/biotiteCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/biotite"/>
+                <CheckBox
+                    android:id="@+id/calciteCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/calci"/>
+                <CheckBox
+                    android:id="@+id/chloriteCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/chlorite"/>
+                <CheckBox
+                    android:id="@+id/cordieriteCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/cordierite"/>
+                <CheckBox
+                    android:id="@+id/corundumCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/corundum"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/first">
+
+                <CheckBox
+                    android:id="@+id/pyriteCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/pyrite"/>
+
+                <CheckBox
+                    android:id="@+id/vermiCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/vermiculite"/>
+
+                <CheckBox
+                    android:id="@+id/zirconCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/zircon"/>
+                <CheckBox
+                    android:id="@+id/uriCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/uranium"/>
+                <CheckBox
+                    android:id="@+id/tremoCheck"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/tremolite"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:id="@+id/answers"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/myView">
+
+        <TextView
+            android:id="@+id/select"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/selection"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/answer1"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/select"
+            android:layout_marginStart="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/answer2"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/answer1"
+            android:layout_below="@id/select"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/answer3"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_toEndOf="@id/answer2"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/select"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/answers">
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/done"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:drawableEnd="@drawable/check"
+            android:textColor="@color/white"
+            android:backgroundTint="#008B8B"
+            android:background="@drawable/round" />
+
+        <Button
+            android:id="@+id/cycle"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/clear"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:drawableEnd="@drawable/clear"
+            android:layout_toEndOf="@+id/done"
+            android:textColor="@color/white"
+            android:backgroundTint="#008B8B"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/round" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

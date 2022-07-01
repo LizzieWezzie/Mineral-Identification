@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/identify1"
+            android:title="@string/identification" />
+        <item
+            android:id="@+id/nav_mineral_list"
+            android:icon="@drawable/list1"
+            android:title="@string/rock_mineral_list" />
+        <item
+            android:id="@+id/nav_properties"
+            android:icon="@drawable/property4"
+            android:title="@string/properties" />
+    </group>
+</menu>

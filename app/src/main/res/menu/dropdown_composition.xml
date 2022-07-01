@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:checkable="true"
+        android:title="@string/quartz" />
+    <item android:checkable="true"
+        android:title="@string/k_feldspar" />
+    <item android:checkable="true"
+        android:title="@string/P_feldspar" />
+    <item android:checkable="true"
+        android:title="@string/pyroxene" />
+    <item android:checkable="true"
+        android:title="@string/hornblende" />
+    <item android:checkable="true"
+        android:title="@string/amphibole" />
+    <item android:checkable="true"
+        android:title="@string/biotite" />
+    <item android:checkable="true"
+        android:title="@string/olivine" />
+    <item android:checkable="true"
+        android:title="@string/pyrite" />
+</menu>

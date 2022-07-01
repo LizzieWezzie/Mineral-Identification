@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/back3"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_arrow"/>
+
+    <TextView
+        android:id="@+id/hardness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hardness"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/hardness"
+        android:background="@color/hint_grey"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/hardnessDescription"
+        android:textSize="22sp"
+        android:layout_marginStart="5dp"
+        android:layout_below="@id/hardness"/>
+
+    <TextView
+        android:id="@+id/finding"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/hardnessFind"
+        android:textSize="22sp"
+        android:layout_marginStart="5dp"
+        android:layout_below="@id/description"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/hardnesstry"
+        android:layout_below="@id/finding"/>
+</RelativeLayout>

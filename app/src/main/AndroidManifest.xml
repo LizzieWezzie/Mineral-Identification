@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mineralidentification">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Composition"></activity>
+        <activity android:name=".ResultHandlerRock" />
+        <activity android:name=".ResultHandler" />
+        <activity android:name="ResultRocks.CoquinaResult" />
+        <activity android:name="ResultRocks.SyeniteResult" />
+        <activity android:name="ResultRocks.ArkoseResult" />
+        <activity android:name="ResultRocks.ScoriaResult" />
+        <activity android:name="ResultRocks.AnorthResult" />
+        <activity android:name="ResultRocks.DolomiteResult" />
+        <activity android:name="ResultRocks.RhyoliteResult" />
+        <activity android:name="ResultRocks.GranodResult" />
+        <activity android:name="ResultRocks.EpidoriteResult" />
+        <activity android:name="ResultRocks.FlintResult" />
+        <activity android:name="ResultRocks.EclogiteResult" />
+        <activity android:name="ResultRocks.DioriteResult" />
+        <activity android:name="ResultRocks.DiatoResult" />
+        <activity android:name="ResultRocks.CarbonResult" />
+        <activity android:name="ResultRocks.BrecciaResult" />
+        <activity android:name="ResultRocks.BasaltResult" />
+        <activity android:name="ResultRocks.DaciteResult" />
+        <activity android:name="ResultRocks.ChertResult" />
+        <activity android:name="ResultRocks.PhylliteResult" />
+        <activity android:name="ResultRocks.PeridoResult" />
+        <activity android:name="ResultRocks.ObsidianResult" />
+        <activity android:name="ResultRocks.MonzoniteResult" />
+        <activity android:name="ResultRocks.MigmaResult" />
+        <activity android:name="ResultRocks.MarbleResult" />
+        <activity android:name="ResultRocks.CongloResult" />
+        <activity android:name="ResultRocks.CoalResult" />
+        <activity android:name="ResultRocks.GraniteResult" />
+        <activity android:name="ResultRocks.GneissResult" />
+        <activity android:name="ResultRocks.GeodeResult" />
+        <activity android:name="ResultRocks.GabbroResult" />
+        <activity android:name="ResultRocks.ShaleResult" />
+        <activity android:name="ResultRocks.SlateResult" />
+        <activity android:name="ResultRocks.SchistResult" />
+        <activity android:name="ResultRocks.LimestoneResult" />
+        <activity android:name="ResultRocks.MudstoneResult" />
+        <activity android:name="ResultRocks.SandstoneResult" />
+        <activity android:name="ResultRocks.PumiceResult" />
+        <activity android:name="ResultRocks.AndesiteResult" />
+        <activity android:name="ResultRocks.QuartziteResult" />
+        <activity android:name=".Results.HematiteResult" />
+        <activity android:name=".Results.KyaniteResult" />
+        <activity android:name=".Results.HaliteResult" />
+        <activity android:name=".Results.GypsumResult" />
+        <activity android:name=".Results.PyriteResult" />
+        <activity android:name=".Results.FluoriteResult" />
+        <activity android:name=".Results.DolomiteResult" />
+        <activity android:name=".Results.EpidoteResult" />
+        <activity android:name=".Results.DiamndResult" />
+        <activity android:name=".Results.MicroclineResult" />
+        <activity android:name=".Results.MonaziteResult" />
+        <activity android:name=".Results.NephelineResult" />
+        <activity android:name=".Results.NickelResult" />
+        <activity android:name=".Results.OlivineResult" />
+        <activity android:name=".Results.OrthoResult" />
+        <activity android:name=".Results.SillimaResult" />
+        <activity android:name=".Results.MagnetiteResult" />
+        <activity android:name=".Results.MuscoviteResult" />
+        <activity android:name=".Results.PegmatiteResult" />
+        <activity android:name=".Results.UraniumResult" />
+        <activity android:name=".Results.TourmaResult" />
+        <activity android:name=".Results.ZirconResult" />
+        <activity android:name=".Results.GarnetResult" />
+        <activity android:name=".Results.CorundumResult" />
+        <activity android:name=".Results.TalcResult" />
+        <activity android:name=".Results.TitaniteResult" />
+        <activity android:name=".Results.ChloriteResult" />
+        <activity android:name=".Results.SulfurResult" />
+        <activity android:name=".Results.TremoResult" />
+        <activity android:name=".Results.CordierResult" />
+        <activity android:name=".Results.VermiResult" />
+        <activity android:name=".Results.GraphiteResult" />
+        <activity android:name=".Results.GoldResult" />
+        <activity android:name=".Results.RutileResult" />
+        <activity android:name=".Results.CalciteResult" />
+        <activity android:name=".Results.BiotiteResult" />
+        <activity android:name=".Results.BauxiteResult" />
+        <activity android:name=".Results.ApatiteResult" />
+        <activity android:name="ResultRocks.AmphiboleResult" />
+        <activity android:name=".Results.AndesineResult" />
+        <activity android:name=".SearchableActivity" />
+        <activity android:name=".ui.properties.MainPropertyFragment" />
+        <activity android:name=".ui.mineral_rock_list.MainFragment" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Results.Results" />
+        <activity android:name=".RockPage" />
+        <activity android:name=".MineralPage" />
+        <activity android:name="Popups.ColorPopup" />
+        <activity android:name="Popups.HardnessPopup" />
+        <activity android:name="Popups.LusterPopup" />
+        <activity android:name="Popups.StreakPopup" />
+        <activity android:name="Popups.CleavagePopup" />
+        <activity android:name="Popups.FracturePopup" />
+        <activity android:name="Popups.DensityPopup" />
+        <activity android:name="Popups.CompositionPopup" />
+        <activity android:name="Popups.TexturePopup" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

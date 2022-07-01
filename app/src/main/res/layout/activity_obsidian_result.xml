@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ResultRocks.AmphiboleResult">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back_arrow"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/obsidian"
+            android:layout_height="170dp"/>
+
+        <TextView
+            android:id="@+id/nameView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:text="@string/obsidian"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/imageView"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/property"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/properties"
+            android:layout_below="@id/nameView"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="5dp"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/property"
+            android:background="@color/hint_grey"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/colorShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/color"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/property"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/hardnessShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hardness"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/property"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/textureShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texture"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/property"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:id="@+id/compositionShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/composition"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/property"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="150dp"/>
+
+        <TextView
+            android:id="@+id/typeShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/type"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp"
+            android:layout_below="@id/property"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="200dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/uses"
+            android:background="@color/hint_grey"
+            android:layout_marginTop="4dp"/>
+
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/colorShow"
+            android:layout_below="@id/property"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/colorAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/green"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/colorAnswer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/comma"
+                    android:layout_toEndOf="@id/colorAnswer"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/colorAnswer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:layout_toEndOf="@id/colorAnswer2"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/colorAnswer4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/brown"
+                    android:layout_toEndOf="@id/colorAnswer3"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/colorAnswer5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/comma"
+                    android:layout_toEndOf="@id/colorAnswer4"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/colorAnswer6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:layout_toEndOf="@id/colorAnswer5"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/colorAnswer7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/black"
+                    android:layout_toEndOf="@id/colorAnswer6"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/hardnessAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/seven"
+                android:textSize="20sp"
+                android:layout_marginTop="40dp" />
+
+            <TextView
+                android:id="@+id/textureAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/indistinct"
+                android:textSize="20sp"
+                android:layout_marginTop="90dp" />
+
+            <RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/compositionAnswer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/P_feldspar"
+                    android:textSize="20sp"
+                    android:layout_marginTop="140dp" />
+
+                <TextView
+                    android:id="@+id/compositionAnswer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/comma"
+                    android:textSize="20sp"
+                    android:layout_toEndOf="@id/compositionAnswer"
+                    android:layout_marginTop="140dp" />
+
+                <TextView
+                    android:id="@+id/compositionAnswer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" "
+                    android:layout_toEndOf="@id/compositionAnswer1"
+                    android:textSize="20sp"
+                    android:layout_marginTop="140dp" />
+
+                <TextView
+                    android:id="@+id/compositionAnswer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/amphibole"
+                    android:layout_toEndOf="@id/compositionAnswer2"
+                    android:textSize="20sp"
+                    android:layout_marginTop="140dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/typeAnswer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/metamorphic"
+                android:textSize="20sp"
+                android:layout_marginTop="190dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/uses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/uses"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_below="@id/property"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="250dp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/useText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quartzUse"
+            android:layout_below="@id/uses"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/locations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:layout_below="@id/useText"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="5dp"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/locations"
+            android:background="@color/hint_grey"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mzimba"
+            android:layout_below="@id/locations"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+</ScrollView>

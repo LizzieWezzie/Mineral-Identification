@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/black"
+        android:icon="@drawable/box_black"
+        app:showAsAction="always"/>
+    <item android:title="@string/blue"
+        android:icon="@drawable/box_brown"
+        app:showAsAction="always"/>
+    <item android:title="@string/brown"
+        android:icon="@drawable/box_brown"
+        app:showAsAction="always"/>
+    <item android:title="@string/colorless"
+        android:icon="@drawable/box_colourless"
+        app:showAsAction="always"/>
+    <item android:title="@string/gold"
+        android:icon="@drawable/box_colourless"
+        app:showAsAction="always"/>
+    <item android:title="@string/gray"
+        android:icon="@drawable/box_grey"
+        app:showAsAction="always"/>
+    <item android:title="@string/green"
+        android:icon="@drawable/box_green"
+        app:showAsAction="always"/>
+    <item android:title="@string/orange"
+        android:icon="@drawable/box_orange"
+        app:showAsAction="always"/>
+    <item android:title="@string/pink"
+        android:icon="@drawable/box_pink"
+        app:showAsAction="always"/>
+    <item android:title="@string/purple"
+        android:icon="@drawable/box_pink"
+        app:showAsAction="always"/>
+    <item android:title="@string/red"
+        android:icon="@drawable/box_red"
+        app:showAsAction="always"/>
+    <item android:title="@string/silver"
+        android:icon="@drawable/box_red"
+        app:showAsAction="always"/>
+    <item android:title="@string/violet"
+        android:icon="@drawable/box_red"
+        app:showAsAction="always"/>
+    <item android:title="@string/white"
+        android:icon="@drawable/box_white"
+        app:showAsAction="always"/>
+    <item android:title="@string/yellow"
+        android:icon="@drawable/box_yellow"
+        app:showAsAction="always"/>
+
+
+
+
+
+
+</menu>

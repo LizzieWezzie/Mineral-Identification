@@ -1,0 +1,622 @@
+<resources>
+    <string name="app_name">Mineral Identification</string>
+    <string name="mineral_identification">Mineral Identification</string>
+    <string name="mineral_and_rock_identification">Mineral and Rock Identification</string>
+    <string name="identify_a_mineral">Identify a Mineral</string>
+    <string name="identify_a_rock">Identify a Rock</string>
+    <string name="_1_5">1/5</string>
+
+    //main menu strings
+    <string name="rmi">RMI</string>
+    <string name="rock_mineral_identification">Rock and Mineral Identification</string>
+    <string name="identification">Identification</string>
+    <string name="rock_mineral_list">Rock and Mineral List</string>
+    <string name="properties">Properties</string>
+
+    //mineral identification strings
+    <string name="color">Color</string>
+    <string name="color_hint">Physical appearance of a mineral</string>
+    <string name="streak">Streak</string>
+    <string name="streak_hint">Color of powdered form of mineral</string>
+    <string name="luster">Luster</string>
+    <string name="luster_hint">How a mineral reflects light</string>
+    <string name="hardness">Hardness</string>
+    <string name="hardness_hint">Mineral\'s resistance to being scratched</string>
+    <string name="cleavage">Cleavage</string>
+    <string name="fracture">Fracture</string>
+    <string name="densityone">Density(g/m3)</string>
+    <string name="density">Density</string>
+    <string name="cleavage_hint">How a mineral breaks</string>
+    <string name="fracture_hint">How a mineral breaks at random</string>
+    <string name="density_hint">Mass per unit volume</string>
+    <string name="mineral">Mineral</string>
+    <string name="rock">Rock</string>
+
+    //rock identification strings
+    <string name="texture">Texture</string>
+    <string name="Texture_hint">The size, shape, and arrangement of the grains</string>
+
+    //colors
+    <string name="green">Green</string>
+    <string name="pink">Pink</string>
+    <string name="black">Black</string>
+    <string name="blue">Blue</string>
+    <string name="gray">Gray</string>
+    <string name="colorless">Colorless</string>
+    <string name="orange">Orange</string>
+    <string name="white">White</string>
+    <string name="red">Red</string>
+    <string name="brown">Brown</string>
+    <string name="yellow">Yellow</string>
+    <string name="purple">Purple</string>
+    <string name="violet">Violet</string>
+
+    <string name="selection">Selection</string>
+
+    <string name="calci">Calcite</string>
+    <string name="done">Done</string>
+
+    <string name="clear">Clear</string>
+
+    //hardness index
+    <string name="one">1.0</string>
+    <string name="onepointone">1.1</string>
+    <string name="onepointtwo">1.2</string>
+    <string name="onepointthree">1.3</string>
+    <string name="onepointfour">1.4</string>
+    <string name="onepointfive">1.5</string>
+    <string name="onepointsix">1.6</string>
+    <string name="onepointseven">1.7</string>
+    <string name="onepointeight">1.8</string>
+    <string name="onepointnine">1.9</string>
+    <string name="two">2.0</string>
+    <string name="twopointone">2.1</string>
+    <string name="twopointtwo">2.2</string>
+    <string name="twopointthree">2.3</string>
+    <string name="twopointfour">2.4</string>
+    <string name="twopointfive">2.5</string>
+    <string name="twopointsix">2.6</string>
+    <string name="twopointseven">2.7</string>
+    <string name="twopointeight">2.8</string>
+    <string name="twopointnine">2.9</string>
+    <string name="three">3.0</string>
+    <string name="threepointone">3.1</string>
+    <string name="threepointtwo">3.2</string>
+    <string name="threepointthree">3.3</string>
+    <string name="threepointfour">3.4</string>
+    <string name="threepointfive">3.5</string>
+    <string name="threepointsix">3.6</string>
+    <string name="threepointseven">3.7</string>
+    <string name="threepointeight">3.8</string>
+    <string name="threepointnine">3.9</string>
+    <string name="four">4.0</string>
+    <string name="fourpointone">4.1</string>
+    <string name="fourpointtwo">4.2</string>
+    <string name="fourpointthree">4.3</string>
+    <string name="fourpointfour">4.4</string>
+    <string name="fourpointfive">4.5</string>
+    <string name="fourpointsix">4.6</string>
+    <string name="fourpointseven">4.7</string>
+    <string name="fourpointeight">4.8</string>
+    <string name="fourpointnine">4.9</string>
+    <string name="five">5.0</string>
+    <string name="fivepointone">5.1</string>
+    <string name="fivepointtwo">5.2</string>
+    <string name="fivepointthree">5.3</string>
+    <string name="fivepointfour">5.4</string>
+    <string name="fivepointfive">5.5</string>
+    <string name="fivepointsix">5.6</string>
+    <string name="fivepointseven">5.7</string>
+    <string name="fivepointeight">5.8</string>
+    <string name="fivepointnine">5.9</string>
+    <string name="six">6.0</string>
+    <string name="sixpointone">6.1</string>
+    <string name="sixpointtwo">6.2</string>
+    <string name="sixpointthree">6.3</string>
+    <string name="sixpointfour">6.4</string>
+    <string name="sixpointfive">6.5</string>
+    <string name="sixpointsix">6.6</string>
+    <string name="sixpointseven">6.7</string>
+    <string name="sixpointeight">6.8</string>
+    <string name="sixpointnine">6.9</string>
+    <string name="seven">7.0</string>
+    <string name="sevenpointone">7.1</string>
+    <string name="sevenpointtwo">7.2</string>
+    <string name="sevenpointthree">7.3</string>
+    <string name="sevenpointfour">7.4</string>
+    <string name="sevenpointfive">7.5</string>
+    <string name="sevenpointsix">7.6</string>
+    <string name="sevenpointseven">7.7</string>
+    <string name="sevenpointeight">7.8</string>
+    <string name="sevenpointnine">7.9</string>
+    <string name="eight">8.0</string>
+    <string name="eightpointone">8.1</string>
+    <string name="eightpointtwo">8.2</string>
+    <string name="eightpointthree">8.3</string>
+    <string name="eightpointfour">8.4</string>
+    <string name="eightpointfive">8.5</string>
+    <string name="eightpointsix">8.6</string>
+    <string name="eightpointseven">8.7</string>
+    <string name="eightpointeight">8.8</string>
+    <string name="eightpointnine">8.9</string>
+    <string name="nine">9.0</string>
+    <string name="ninepointone">9.1</string>
+    <string name="ninepointtwo">9.2</string>
+    <string name="ninepointthree">9.3</string>
+    <string name="ninepointfour">9.4</string>
+    <string name="ninepointfive">9.5</string>
+    <string name="ninepointsix">9.6</string>
+    <string name="ninepointseven">9.7</string>
+    <string name="ninepointeight">9.8</string>
+    <string name="ninepointnine">9.9</string>
+    <string name="ten">10.0</string>
+    <string name="tenpointone">10.1</string>
+    <string name="tenpointtwo">10.2</string>
+    <string name="tenpointthree">10.3</string>
+    <string name="tenpointfour">10.4</string>
+    <string name="tenpointfive">10.5</string>
+    <string name="tenpointsix">10.6</string>
+    <string name="tenpointseven">10.7</string>
+    <string name="tenpointeight">10.8</string>
+    <string name="tenpointnine">10.9</string>
+    <string name="eleven">11.0</string>
+    <string name="elevenpointone">11.1</string>
+    <string name="elevenpointtwo">11.2</string>
+    <string name="elevenpointthree">11.3</string>
+    <string name="elevenpointfour">11.4</string>
+    <string name="elevenpointfive">11.5</string>
+    <string name="elevenpointsix">11.6</string>
+    <string name="elevenpointseven">11.7</string>
+    <string name="elevenpointeight">11.8</string>
+    <string name="elevenpointnine">11.9</string>
+    <string name="twelve">12.0</string>
+    <string name="twelvepointone">12.1</string>
+    <string name="twelvepointtwo">12.2</string>
+    <string name="twelvepointthree">12.3</string>
+    <string name="twelvepointfour">12.4</string>
+    <string name="twelvepointfive">12.5</string>
+    <string name="twelvepointsix">12.6</string>
+    <string name="twelvepointseven">12.7</string>
+    <string name="twelvepointeight">12.8</string>
+    <string name="twelvepointnine">12.9</string>
+    <string name="thirteen">13.0</string>
+    <string name="thirteenpointone">13.1</string>
+    <string name="thirteenpointtwo">13.2</string>
+    <string name="thirteenpointthree">13.3</string>
+    <string name="thirteenpointfour">13.4</string>
+    <string name="thirteenpointfive">13.5</string>
+    <string name="thirteenpointsix">13.6</string>
+    <string name="thirteenpointseven">13.7</string>
+    <string name="thirteenpointeight">13.8</string>
+    <string name="thirteenpointnine">13.9</string>
+    <string name="fourteen">14.0</string>
+    <string name="fourteenpointone">14.1</string>
+    <string name="fourteenpointtwo">14.2</string>
+    <string name="fourteenpointthree">14.3</string>
+    <string name="fourteenpointfour">14.4</string>
+    <string name="fourteenpointfive">14.5</string>
+    <string name="fourteenpointsix">14.6</string>
+    <string name="fourteenpointseven">14.7</string>
+    <string name="fourteenpointeight">14.8</string>
+    <string name="fourteenpointnine">14.9</string>
+    <string name="fifteen">15.0</string>
+    <string name="fifteenpointone">15.1</string>
+    <string name="fifteenpointtwo">15.2</string>
+    <string name="fifteenpointthree">15.3</string>
+    <string name="fifteenpointfour">15.4</string>
+    <string name="fifteenpointfive">15.5</string>
+    <string name="fifteenpointsix">15.6</string>
+    <string name="fifteenpointseven">15.7</string>
+    <string name="fifteenpointeight">15.8</string>
+    <string name="fifteenpointnine">15.9</string>
+    <string name="sixteen">16.0</string>
+    <string name="sixteenpointone">16.1</string>
+    <string name="sixteenpointtwo">16.2</string>
+    <string name="sixteenpointthree">16.3</string>
+    <string name="sixteenpointfour">16.4</string>
+    <string name="sixteenpointfive">16.5</string>
+    <string name="sixteenpointsix">16.6</string>
+    <string name="sixteenpointseven">16.7</string>
+    <string name="sixteenpointeight">16.8</string>
+    <string name="sixteenpointnine">16.9</string>
+    <string name="seventeen">17.0</string>
+    <string name="seventeenpointone">17.1</string>
+    <string name="seventeenpointtwo">17.2</string>
+    <string name="seventeenpointthree">17.3</string>
+    <string name="seventeenpointfour">17.4</string>
+    <string name="seventeenpointfive">17.5</string>
+    <string name="seventeenpointsix">17.6</string>
+    <string name="seventeenpointseven">17.7</string>
+    <string name="seventeenpointeight">17.8</string>
+    <string name="seventeenpointnine">17.9</string>
+    <string name="eighteen">18.0</string>
+    <string name="eighteenpointone">18.1</string>
+    <string name="eighteenpointtwo">18.2</string>
+    <string name="eighteenpointthree">18.3</string>
+    <string name="eighteenpointfour">18.4</string>
+    <string name="eighteenpointfive">18.5</string>
+    <string name="eighteenpointsix">18.6</string>
+    <string name="eighteenpointseven">18.7</string>
+    <string name="eighteenpointeight">18.8</string>
+    <string name="eighteenpointnine">18.9</string>
+    <string name="nineteen">19.0</string>
+    <string name="nineteenpointone">19.1</string>
+    <string name="nineteenpointtwo">19.2</string>
+    <string name="nineteenpointthree">19.3</string>
+    <string name="nineteenpointfour">19.4</string>
+    <string name="nineteenpointfive">19.5</string>
+    <string name="nineteenpointsix">19.6</string>
+    <string name="nineteenpointseven">19.7</string>
+    <string name="nineteenpointeight">19.8</string>
+    <string name="nineteenpointnine">19.9</string>
+    <string name="twenty">20.0</string>
+    <string name="twentypointone">20.1</string>
+    <string name="twentypointtwo">20.2</string>
+    <string name="twentypointthree">20.3</string>
+    <string name="twentypointfour">20.4</string>
+    <string name="twentypointfive">20.5</string>
+    <string name="twentypointsix">20.6</string>
+    <string name="twentypointseven">20.7</string>
+    <string name="twentypointeight">20.8</string>
+    <string name="twentypointnine">20.9</string>
+
+    //luster index
+    <string name="metallic">Metallic</string>
+    <string name="non_metallic">Non-metallic</string>
+    <string name="earthy">Earthy</string>
+    <string name="silky">Silky</string>
+    <string name="glassy">Glassy</string>
+
+    //rock color index
+    <string name="leucocratic">Leucocratic</string>
+    <string name="mesocratic">Mesocratic</string>
+    <string name="melanocratic">Melanocratic</string>
+
+    //texture index
+    <string name="phaneritic">Phaneritic</string>
+    <string name="aphanitic">Aphanitic</string>
+    <string name="porphyritic">Porphyritic</string>
+    <string name="vesicular">Vesicular</string>
+    <string name="foliated">Foliated</string>
+    <string name="nonfoliated">Non-foliated</string>
+
+    //grainSize index
+    <string name="grain_size">Grain Size</string>
+    <string name="grain_size_hint">Size of individual grains</string>
+
+    //composition index
+    <string name="composition">Composition</string>
+    <string name="composition_hint">Mineral\'s that make up the rock</string>
+
+    //cleavage index
+    <string name="basal">Basal</string>
+    <string name="cubic">Cubic</string>
+    <string name="octahedral">Octahedral</string>
+    <string name="prismatic">Prismatic</string>
+    <string name="pinicoidal">Pinicoidal</string>
+    <string name="rhombohedral">Rhombohedral</string>
+    <string name="indistinct">Indistinct</string>
+
+    //fracture index
+    <string name="conchoidal">Conchoidal</string>
+    <string name="fibrous">Fibrous</string>
+    <string name="hackly">Hackly</string>
+    <string name="irregular">Irregular</string>
+    <string name="splintery">Splintery</string>
+    <string name="conchoidal_fracture">Conchoidal fracture</string>
+
+    //composition dropdown
+    <string name="quartz">Quartz</string>
+    <string name="k_feldspar">K-Feldspar</string>
+    <string name="P_feldspar">P-Feldspar</string>
+    <string name="pyroxene">Pyroxene</string>
+    <string name="hornblende">Hornblende</string>
+    <string name="amphibole">Amphibole</string>
+    <string name="biotite">Biotite</string>
+    <string name="olivine">Olivine</string>
+
+    //navigation window
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="identify">Identify</string>
+
+    //mineral properties
+    <string name="streakDescription">This represents the mineral in powdered form.</string>
+    <string name="streakFind">It is found when a mineral is pulled across an unglazed porcelain
+        streak plate. The color of this mark is what is used as streak.</string>
+    <string name="colorDescription">This is the physical appearance of a mineral.</string>
+    <string name="colorFind">You can find this property by simply observing your mineral. A hand lens can be helpful.</string>
+    <string name="hardnessDescription">This is the resistance of a mineral to scratching. This property is described
+        relative to a standard scale of 10 minerals known as the Mohs scale of hardness</string>
+    <string name="hardnessFind">Hardness is determined by observing the comparative ease or difficulty with
+        which one mineral is scratched by another or by a steel tool.</string>
+    <string name="lusterDescription">Luster is how the surface of a mineral reflects light.</string>
+    <string name="lusterFind">It is found by observing the surface of the mineral. shiny minerals have a metallic luster
+        and non shiny minerals have a non metallic luster</string>
+    <string name="cleavageDescription">Cleavage describes how a crystal breaks when subject to stress on a particular plane.</string>
+    <string name="cleavageFind">Angle of cleavage is determined by observing the intersection of cleavage planes.</string>
+    <string name="fractureDescription">Fracture refers to rough or irregular surfaces along which the mineral breaks randomly.</string>
+    <string name="fractureFind">This can be found by observing the way in which a mineral breaks in directions
+        other than along cleavage planes.</string>
+    <string name="densityDescription">This is the ratio of a minerals mass to its volume.</string>
+    <string name="densityFind">Density of a mineral is found by dividing the mass or weight of a sample by its volume.</string>
+
+    //rock properties
+    <string name="compositionDescription">This describes the minerals that makeup a rock.</string>
+    <string name="compositionFind">Mineral composition of a rock is determined by observing the different
+        types of minerals that are present in the rock.</string>
+    <string name="textureDescription">Rock texture describes the size, shape, and arrangement of the grains
+        or crystals.</string>
+    <string name="textureFind">Texture can be determined by looking at a rock under a microscope.</string>
+
+    //mineral list
+    <string name="calcite">Calcite(Brown)</string>
+    <string name="magnetite">Magnetite</string>
+    <string name="bauxite">Bauxite</string>
+    <string name="pyrite">Pyrite</string>
+    <string name="uranium">Uranium</string>
+    <string name="monazite">Monazite/Strontianite</string>
+    <string name="vermiculite">Vermiculite</string>
+    <string name="gypsum">Gypsum</string>
+    <string name="dolomite">Dolomite</string>
+    <string name="talc">Talc</string>
+    <string name="gold">Gold</string>
+    <string name="graphite">Graphite</string>
+    <string name="sulfur">Sulfur</string>
+    <string name="diamond">Diamond</string>
+    <string name="halite">Halite</string>
+    <string name="hematite">Hematite</string>
+    <string name="nickel">Nickel</string>
+    <string name="kyanite">Kyanite</string>
+    <string name="corundum">Corundum</string>
+    <string name="pegmatite">Pegmatite</string>
+    <string name="muscovite">Muscovite</string>
+    <string name="apatite">Apatite</string>
+    <string name="garnet">Garnet</string>
+    <string name="silimanite">Sillimanite</string>
+    <string name="epidote">Epidote</string>
+    <string name="chlorite">Chlorite</string>
+    <string name="tourmaline">Tourmaline</string>
+    <string name="rutile">Rutile</string>
+    <string name="fluorite">Fluorite</string>
+    <string name="zircon">Zircon</string>
+    <string name="nepheline">Nepheline</string>
+    <string name="microcline">Microcline</string>
+    <string name="andesine">Andesine</string>
+    <string name="cordierite">Cordierite</string>
+    <string name="tremolite">Tremolite</string>
+    <string name="titanite">Titanite</string>
+    <string name="orthopyroxene">Orthopyroxene</string>
+
+    //rock list
+    <string name="granite">Granite</string>
+    <string name="basalt">Basalt</string>
+    <string name="sandstone">Sandstone</string>
+    <string name="limestone">Limestone</string>
+    <string name="gabbro">Gabbro</string>
+    <string name="rhyolite">Rhyolite</string>
+    <string name="gneiss">Gneiss</string>
+    <string name="slate">Slate</string>
+    <string name="marble">Marble</string>
+    <string name="andesite">Andesite</string>
+    <string name="diorite">Diorite</string>
+    <string name="obsidian">Obsidian</string>
+    <string name="shale">Shale</string>
+    <string name="schist">Schist</string>
+    <string name="quartzite">Quartzite</string>
+    <string name="conglomerate">Conglomerate</string>
+    <string name="pumice">Pumice</string>
+    <string name="peridotite">Peridotite</string>
+    <string name="dacite">Dacite</string>
+    <string name="coal">Coal</string>
+    <string name="arkose">Arkose</string>
+    <string name="carbonatite">Carbonatite</string>
+    <string name="epidorite">Epidorite</string>
+    <string name="migmatite">Migmatite</string>
+    <string name="monzonite">Monzonite</string>
+    <string name="mudstone">Mudstone</string>
+    <string name="phyllite">Phyllite</string>
+    <string name="syenite">Syenite</string>
+    <string name="scoria">Scoria</string>
+    <string name="granodiorite">Granodiorite</string>
+    <string name="geode">Geode</string>
+    <string name="eclogite">Eclogite</string>
+    <string name="diatomite">Diatomite</string>
+    <string name="coquina">Coquina</string>
+    <string name="chert">Chert</string>
+    <string name="anorthosite">Anorthosite</string>
+    <string name="amphibolite">Amphibolite</string>
+    <string name="breccia">Breccia</string>
+    <string name="flint">Flint</string>
+
+
+    //mineral uses
+    <string name="quartzUse">Used in Manufacture of glass and ceramics, as an abrasive  in sand paper, and in
+        optics to transmit ultraviolet light.</string>
+    <string name="calciteUse">Used in construction as limestone and marble to produce cement and concrete.</string>
+    <string name="magnetiteUse">Used in industrial processes such as steel manufacture, as an oxide source and in
+        contrast agents in medical imaging.</string>
+    <string name="bauxiteUse"> Used in airplane making industry, electric industry, machinery and civil tool-making industry. It is also used
+    as a desiccating agent, adsorbent, catalyst and in the manufacture of dental cement.</string>
+    <string name="pyriteUse"> Pyrite is used as a gemstone for jewelry production. Some sulfur can
+        be obtained from pyrite as a byproduct of gold production.</string>
+    <string name="monaziteUse"> Monazite is an important source of thorium, cerium, and other rare elements.</string>
+    <string name="vermiculiteUse"> Exfoliated vermiculite is used in lightweight concrete or plaster, for thermal and acoustic insulation,
+        or as a packing medium, a soil conditioner, as starting medium for seeds, and a filler or extender in paper, paint, or plastics.</string>
+    <string name="gypsumUse"> Used in the manufacture of wallboard, cement, plaster of Paris, soil conditioning, a hardening retarder in
+        Portland cement.</string>
+    <string name="dolomiteUse"> Used as a source of magnesia (MgO), a feed additive for livestock, a sintering agent and flux in metal processing, and as
+    an ingredient in the production of glass, bricks, and ceramics.</string>
+    <string name="talcUse"> Talc is used a s an ingredient in ceramics, paper, paint, roofing, plastics, cosmetics, talcum and baby powders, and
+        a variety of other assorted uses such as making rubber and plastics.</string>
+    <string name="goldUse"> Used in jewelry production. It is also an electrical conductor used in computers, circuits, appliances, cell phones, etc.</string>
+    <string name="graphiteUse"> Natural graphite is used for refractories, batteries, steelmaking, expanded graphite,
+        brake linings, foundry facings and lubricant.</string>
+    <string name="sulfurUse">Sulfur is a component of gunpowder. It is also used as a component of fertilizers.</string>
+    <string name="diamondUse">Used as a gemstone in jewelry production. It is also used as an industrial abrasive as well
+        as other products such as diamond windows, speaker domes, heat sinks, low-friction micro-bearings, etc.</string>
+    <string name="haliteUse">Used in winter road treatment, as a source of sodium and chlorine for chemical processes,
+        and for food preservation and seasoning.</string>
+    <string name="hematiteUse">Hematite is the most important ore of iron. Can also be used for production of
+        pigments, for preparations for heavy media separation, radiation shielding, ballast, etc.</string>
+    <string name="nickelUse">Used to plate other metals to protect them against corrosion. Also used in making
+        alloys such as stainless steel.</string>
+    <string name="kyaniteUse">Used in manufacture of refractory products such as bricks, mortars, and
+        kiln furniture used in high temperature furnaces.</string>
+    <string name="corundumUse">Used as a precious gem, as an abrasive and for grinding optical glass and polishing metals.</string>
+    <string name="pegmatiteUse">Large sheets of mica are mined from pegmatites, these are used to make components for electronic
+        devices, retardation plates, circuit boards, optical filters, detector windows, etc.</string>
+    <string name="muscoviteUse">Used in the manufacturing of paint, joint compound, plastics rubber, asphalt roofing, cosmetics, etc.</string>
+    <string name="apatiteUse">Used in manufacture of fertilizers, occasional used as a gemstone, as an ore of phosphate to be used
+        in pharmaceuticals, ceramics, silk, textiles, etc.</string>
+    <string name="garnetUse">Used in waterjet cutting granules, abrasive blasting granules, filtration granules, abrasive grits and powders, gemstones.</string>
+    <string name="olivineUse">Used in metallurgical processes as a slag conditioner. High-magnesium olivine is added to blast
+        furnaces to remove impurities from steel and to form a slag.</string>
+    <string name="sillimaniteUse">Used in production of mullite or high-alumina refractories. Used in the manufacture of metals,
+        glass ceramics and cement.</string>
+    <string name="epidoteUse">Epidote only has minor uses as a gemstone.</string>
+    <string name="chloriteUse">Chlorite is used as a filler and as a constituent of clay.</string>
+    <string name="biotiteUse">Ground mica is used as a filler and extender in paints, as an additive to drilling muds, as an inert
+        filler and mold release agent in rubber products, and as a non-stick surface coating on asphalt shingles and rolled roofing.</string>
+    <string name="tourmalineUse">Tourmaline is used as a gemstone and mineral specimen</string>
+    <string name="rutileUse">Used in manufacture of refractory ceramic, as a pigment, and for the production of titanium metal.</string>
+    <string name="fluoriteUse">Used as a flux for smelting, and in the production of certain glasses and enamels.</string>
+    <string name="zirconUse">Used as an opacifier, whitening agent, and a pigment in glazes and stains used on ceramics and pottery.</string>
+    <string name="nephelineUse">Used as a substitute for feldspars I the manufacture of glass and ceramics.</string>
+    <string name="microclineUse">Used in the production of porcelain. Used in the production of glass and ceramic products.
+        It is also used as ornamental lapidary material with amazonite in green color.</string>
+    <string name="andesineUse">Andesine is used as a gemstone.</string>
+    <string name="cordieriteUse">Sometimes cut as a gem when it is clear. Synthetic magnesium cordierite has low thermal expansion and
+        will be used as a semi-refractory material as it is resistant to thermal shock.</string>
+    <string name="tremoliteUse">Tremolite is used to some extent as asbestos material.</string>
+    <string name="titaniteUse">Titanite is a source of titanium oxide used in pigments. It is also used as a gemstone.</string>
+    <string name="orthopyroxeneUse">Some are used as gemstones but only in rare occurrences when they have an attractive color and clarity. </string>
+    <string name="uraniumUse">Used in nuclear fuels and nuclear weapons. It is also used in production of high energy X-rays, in photographic
+        toner and as a yellow tint in special glass. </string>
+
+
+    //rock uses
+
+    //locations in Malawi
+    <string name="mzimba">Mzimba</string>
+    <string name="songwe">Songwe hill</string>
+    <string name="magnetiteLocale">Dowa, Lilongwe, Kasungu etc.</string>
+    <string name="mulanje">Mulanje</string>
+    <string name="pyriteLocale">Chikangawa intrusion, Nkhatabay, Northern region</string>
+    <string name="monaziteLocale">Kangankunde, Balaka in southern region</string>
+    <string name="vermiculiteLocale">Changalumi, 13km west of Zomba</string>
+    <string name="gypsumLocale">Dowa and Lilongwe</string>
+    <string name="dolomiteLocale">Southern region between Blantyre and Lilongwe</string>
+    <string name="goldLocale">Kirk Range_Lisungwe valley</string>
+    <string name="graphiteLocale">Katengeza village in Salima</string>
+    <string name="diamondLocale">Songwe hill</string>
+    <string name="hematiteLocale">Mount Malosa in Zomba</string>
+    <string name="nickelLocale">Chimimbe hill in western Malawi</string>
+    <string name="kyaniteLocale">Dedza kirk Range</string>
+    <string name="corundumLocale">Chimwadzulu</string>
+    <string name="pegmatiteLocale">Nsanje, Chikhwawa, Mwanza etc.</string>
+    <string name="muscoviteLocale">Kachebere hills in Mchinji</string>
+    <string name="garnetLocale">Ntcheu</string>
+    <string name="olivineLocale">Machinga</string>
+    <string name="sillimaniteLocale">Kachebere hills in Mchinji</string>
+    <string name="epidoteLocale">Chimwadzulu hill, Ntcheu</string>
+    <string name="chloriteLocale">Chimwadzulu hill, Ntcheu</string>
+    <string name="biotiteLocale">Kachebere hills in Mchinji</string>
+    <string name="tourmalineLocale">Kachebere hills in Mchinji</string>
+    <string name="rutileLocale">Chimwadzulu hill, Ntcheu</string>
+    <string name="uraniumLocale">Kayelekera in Northern Malawi</string>
+    <string name="nephelineLocale">Kasungu-Chipala intrusion</string>
+    <string name="microclineLocale">Kasungu-Chipala intrusion</string>
+    <string name="andesineLocale">Nchisi island</string>
+    <string name="cordieriteLocale">Kachebere hills in Mchinji</string>
+    <string name="titaniteLocale">Kasungu-Chipala intrusion</string>
+    <string name="orthopyroxeneLocale">Mchinji </string>
+
+
+    // rock types
+    <string name="igneous">Igneous</string>
+    <string name="sedimentary">Sedimentary</string>
+    <string name="metamorphic">Metamorphic</string>
+    <string name="flaky">Flaky</string>
+    <string name="resinous">Resinous</string>
+    <string name="zeropointnine">0.9</string>
+
+    //other
+    <string name="uses">Uses</string>
+    <string name="location">Possible Locations in Malawi</string>
+    <string name="type">Type</string>
+    <string name="comma">,</string>
+    <string name="result">Results</string>
+    <string name="vitreous">Vitreous</string>
+    <string name="pearly">Pearly</string>
+    <string name="uneven">Uneven</string>
+    <string name="none">None</string>
+    <string name="distinct">Distinct</string>
+    <string name="adamantine">Adamantine</string>
+    <string name="subConchoidal">Sub-Conchoidal</string>
+    <string name="silver">Silver</string>
+    <string name="micaceous">Micaceous</string>
+    <string name="lamellar">Lamellar</string>
+    <string name="submetallic">Sub-Metallic</string>
+    <string name="todo">TODO</string>
+    <string name="noresult">No Result</string>
+
+
+    <string-array name="minerals">
+        <item>Andesine</item>
+        <item>Apatite</item>
+        <item>Bauxite</item>
+        <item>Biotite</item>
+        <item>Calcite</item>
+        <item>Chlorite</item>
+        <item>Cordierite</item>
+        <item>Corundum</item>
+        <item>Diamond</item>
+        <item>Dolomite</item>
+        <item>Epidote</item>
+        <item>Fluorite</item>
+        <item>Garnet</item>
+        <item>Gold</item>
+        <item>Graphite</item>
+        <item>Gypsum</item>
+        <item>Halite</item>
+        <item>Hematite</item>
+        <item>Kyanite</item>
+        <item>Magnetite</item>
+        <item>Microcline</item>
+        <item>Monazite</item>
+        <item>Muscovite</item>
+        <item>Nepheline</item>
+        <item>Nickel</item>
+        <item>Olivine</item>
+        <item>Orthopyroxene</item>
+        <item>Pegmatite</item>
+        <item>Pyrite</item>
+        <item>Quartz</item>
+        <item>Rutile</item>
+        <item>Sillimanite</item>
+        <item>Sulfur</item>
+        <item>Talc</item>
+        <item>Titanite</item>
+        <item>Tremolite</item>
+        <item>Uranium</item>
+        <item>Vermiculite</item>
+        <item>Zircon</item>
+    </string-array>
+    <string-array name="rocks">
+        <item>wezzie</item>
+        <item>wongani</item>
+        <item>maxwell</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/phaneritic"/>
+    <item android:title="@string/aphanitic"/>
+    <item android:title="@string/porphyritic"/>
+    <item android:title="@string/glassy"/>
+    <item android:title="@string/vesicular"/>
+    <item android:title="@string/foliated"/>
+    <item android:title="@string/nonfoliated"/>
+</menu>

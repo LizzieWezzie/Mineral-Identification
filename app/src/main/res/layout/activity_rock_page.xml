@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RockPage">
+    <ScrollView
+        android:id="@+id/myScroll"
+        android:layout_width="match_parent"
+        android:layout_height="550dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rlColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/colour01"/>
+
+
+                <TextView
+                    android:id="@+id/tvColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/color"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/icon"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tvColorHint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvColor"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/icon"
+                    android:text="@string/color_hint"
+                    android:textColor="@color/hint_grey"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/tvColorHint"
+                    android:background="@color/hint_grey"
+                    android:layout_marginTop="2dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_dropdown_arrow"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlComposition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/rlColor">
+
+                <ImageView
+                    android:id="@+id/icon2"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/colour01"/>
+
+                <TextView
+                    android:id="@+id/tvComposition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/composition"
+                    android:layout_marginStart="5dp"
+                    android:layout_toEndOf="@+id/icon2"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tvCompositionHint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/icon2"
+                    android:layout_marginStart="5dp"
+                    android:layout_below="@+id/tvComposition"
+                    android:text="@string/composition_hint"
+                    android:textColor="@color/hint_grey"/>
+
+                <TextView
+                    android:id="@+id/comma1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/tvCompositionHint"
+                    android:layout_marginStart="5dp"
+                    android:layout_below="@+id/tvComposition"
+                    android:text="@string/comma"
+                    android:textColor="@color/hint_grey"/>
+                <TextView
+                    android:id="@+id/tvCompositionHint2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/comma1"
+                    android:layout_below="@+id/tvComposition"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/hint_grey"/>
+                <TextView
+                    android:id="@+id/comma2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/tvCompositionHint2"
+                    android:layout_marginStart="5dp"
+                    android:layout_below="@+id/tvComposition"
+                    android:text="@string/comma"
+                    android:textColor="@color/hint_grey"/>
+                <TextView
+                    android:id="@+id/tvCompositionHint3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/comma2"
+                    android:layout_below="@+id/tvComposition"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/hint_grey"/>
+
+
+                <ScrollView
+                    android:id="@+id/myView"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_below="@id/tvCompositionHint">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="550dp">
+                        <LinearLayout
+                            android:id="@+id/first"
+                            android:layout_width="160dp"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp"
+                            android:layout_height="match_parent">
+
+                            <CheckBox
+                                android:id="@+id/quartzCheck"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="@string/quartz"/>
+                            <CheckBox
+                                android:id="@+id/kfeldCheck"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="@string/k_feldspar"/>
+                            <CheckBox
+                                android:id="@+id/pfeldCheck"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="@string/P_feldspar"/>
+                            <CheckBox
+                                android:id="@+id/biotiteCheck"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="@string/biotite"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_toEndOf="@id/first">
+
+                            <CheckBox
+                                android:id="@+id/pyroCheck"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="@string/pyroxene"/>
+
+                            <CheckBox
+                                android:id="@+id/hornCheck"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="@string/hornblende"/>
+
+                            <CheckBox
+                                android:id="@+id/amphiCheck"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="@string/amphibole"/>
+                            <CheckBox
+                                android:id="@+id/olivineCheck"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="16sp"
+                                android:text="@string/olivine"/>
+
+                        </LinearLayout>
+                    </RelativeLayout>
+                </ScrollView>
+                <RelativeLayout
+                    android:id="@+id/myButtons"
+                    android:layout_width="220dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/myView">
+
+                    <Button
+                        android:id="@+id/done"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/done"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:drawableEnd="@drawable/check"
+                        android:textColor="@color/white"
+                        android:backgroundTint="#008B8B"
+                        android:background="@drawable/round" />
+
+                    <Button
+                        android:id="@+id/cycle"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/clear"
+                        android:textAllCaps="false"
+                        android:textSize="20sp"
+                        android:drawableEnd="@drawable/clear"
+                        android:layout_toEndOf="@+id/done"
+                        android:textColor="@color/white"
+                        android:backgroundTint="#008B8B"
+                        android:layout_marginStart="20dp"
+                        android:background="@drawable/round" />
+                </RelativeLayout>
+                <View
+                    android:id="@+id/myEnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/myButtons"
+                    android:background="@color/hint_grey"
+                    android:layout_marginTop="2dp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlHardnesss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_below="@+id/rlComposition">
+
+                <ImageView
+                    android:id="@+id/icon3"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/colour01"/>
+                <TextView
+                    android:id="@+id/tvHardness"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hardness"
+                    android:layout_toEndOf="@+id/icon3"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tvHardnessHint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/icon3"
+                    android:layout_marginStart="5dp"
+                    android:layout_below="@+id/tvHardness"
+                    android:text="@string/hardness_hint"
+                    android:textColor="@color/hint_grey"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/tvHardnessHint"
+                    android:background="@color/hint_grey"
+                    android:layout_marginTop="2dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_dropdown_arrow"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlTexture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_below="@id/rlHardnesss"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:id="@+id/icon4"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/colour01"/>
+                <TextView
+                    android:id="@+id/tvTexture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/texture"
+                    android:layout_toEndOf="@+id/icon4"
+                    android:layout_marginStart="5dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/tvTextureHint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/icon4"
+                    android:layout_marginStart="5dp"
+                    android:layout_below="@+id/tvTexture"
+                    android:text="@string/Texture_hint"
+                    android:textColor="@color/hint_grey"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/tvTextureHint"
+                    android:background="@color/hint_grey"
+                    android:layout_marginTop="2dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_dropdown_arrow"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/myScroll">
+
+        <Button
+            android:id="@+id/identify"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/identify"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:drawableEnd="@drawable/check"
+            android:textColor="@color/white"
+            android:backgroundTint="#008B8B"
+            android:background="@drawable/round" />
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/clear"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:drawableEnd="@drawable/clear"
+            android:layout_toEndOf="@+id/identify"
+            android:textColor="@color/white"
+            android:backgroundTint="#008B8B"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/round" />
+
+    </RelativeLayout>
+</RelativeLayout>
