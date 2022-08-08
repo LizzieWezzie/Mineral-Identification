@@ -42,7 +42,6 @@ class DataBaseHandler(private val context: Context) : SQLiteOpenHelper(context, 
                 COL_CLEAVAGE + " VARCHAR(256), " + COL_DENSITY + " INTEGER, " + COL_DESCRIPTION + " VARCHAR(256))"
 
         db?.execSQL(createTableMinerals)
-,
 
     }
     /*if (newVersion > oldVersion) {
